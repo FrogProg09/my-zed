@@ -1,0 +1,41 @@
+//  _____        _            _   _   _
+// |__  /___  __| |  ___  ___| |_| |_(_)_ __   __ _ ___
+//   / // _ \/ _` | / __|/ _ \ __| __| | '_ \ / _` / __|
+//  / /|  __/ (_| | \__ \  __/ |_| |_| | | | | (_| \__ \
+// /____\___|\__,_| |___/\___|\__|\__|_|_| |_|\__, |___/
+//                                           |___/
+// By Frogprog (2025)
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "vim_mode": true,
+  "ui_font_size": 20,
+  "buffer_font_size": 16,
+  "autoscroll_on_clicks": true,
+  "auto_update": true,
+  "enable_language_server": true,
+  "current_line_highlight": "all",
+  "load_direnv": "direct",
+  "bottom_dock_layout": "contained",
+  "base_keymap": null,
+  "cursor_blink": false,
+  "hide_mouse": "on_typing_and_movement",
+
+  "theme": {
+    "mode": "light",
+    "light": "Gruvbox Dark Soft",
+    "dark": "One Dark"
+  },
+  "tabs": {
+    "file_icons": false,
+    "git_status": true
+  },
+  "project_panel": {
+    "dock": "right"
+  }
+}
